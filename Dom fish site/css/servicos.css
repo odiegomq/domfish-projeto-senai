@@ -1,0 +1,68 @@
+main {
+    background-color: #82bbfc28;
+}
+
+.titulo2 h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.servicomain {
+    padding: 35px;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.servicos img {
+    border: 1px solid #000;
+    border-radius: 200px;
+    width: 150px;
+    box-shadow: 1px 1px 5px 2px black;
+
+}
+
+.servicositens {
+    padding-right: 20px;
+    text-align: center;
+}
+
+.servicositens p {
+    font-size: 20px;
+}
+
+.subtitulo {
+    margin-bottom: 30px;
+    background-color: #2e84e8;
+}
+
+.subtitulo h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+#privilegios {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
+    .servicos{
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .servicositens {
+        margin-top: 50px;
+    }
+}

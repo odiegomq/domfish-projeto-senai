@@ -1,0 +1,116 @@
+h2{
+    font-size: 40px;
+    color: #2e84e8;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contato{
+    background-color: #2e84e8;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fcontato{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.fcontato img {
+    width: 25px;
+}
+
+.fcontato h3{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.fcontato h4{
+    font: 15px;
+}
+
+#contatomsg{
+    margin: 2%;
+    padding-bottom: 8px;
+}
+
+section {
+    padding: 15px;
+}
+
+.titulo {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #858585;
+    border-radius: 1px;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+button {
+    padding: 14px 28px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1e90ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0182ff;
+}
+
+.erro {
+    display: none;
+    color: #ff1a1a;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 400px) {
+    #contato {
+        flex-direction: column;
+    }
+
+    .fcontato {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    .fcontato {
+        width: 100%;
+        text-align: center;
+    }
+}
